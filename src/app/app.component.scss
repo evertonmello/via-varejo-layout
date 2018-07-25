@@ -1,0 +1,80 @@
+.main{   
+    width: 100%;        
+    
+    @media only screen and (max-width: 375px) {
+        background-color: red;
+    }
+    height: 70%;  
+
+    .navBar{
+        display: flex;
+        height: 55px;
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 2px solid #dadada;
+    }
+    .mainContent{      
+        width: 1100px;        
+        margin: 30px auto 0 auto;
+        display: flex;
+        .filterBox{            
+            height: 502px;
+            width: 270px;
+            border: 1px solid #dadada;
+            overflow: auto;
+
+            .category{
+                border-bottom: 1px solid #dadada;                
+                font-size: 20px;
+                text-align: left;
+
+                .title{
+                    color: #1C6F41;                   
+                    font-size: 17px;                                        
+                    border-bottom: 1px solid #dadada;
+                    padding: 17px 0 0 15px;
+                    height: 50px;                    
+
+                    &.sub{
+                        border:none;
+                        font-size: 16px;                                                                
+                    }
+                }
+
+            }
+        }
+
+
+
+    }
+}
+
+h1{
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+h2{    
+    font-size: 16px;
+    margin-left: 15px;    
+    margin: 7px 0 10px 15px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #5c5c5c;
+}
+
+.ntfText{
+    cursor: pointer;    
+    margin: auto 5px auto 5px;
+}
+.ntfText:hover{
+    font-weight: bold;
+    
+}
+
+.carImg{
+    
+}

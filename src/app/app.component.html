@@ -1,0 +1,23 @@
+<div class="main">
+    <header></header>
+    <menu-bar></menu-bar>
+
+    <div class="navBar">
+        <h1 *ngFor="let item of itemMenuNav; let i = index" class="ntfText">
+            <span *ngIf="i != 0">></span> {{item}} </h1>
+    </div>
+
+    <div class="mainContent">
+        <div class="filterBox">
+            <div *ngFor="let item of data" class="category">
+                <h1 class="title">{{item.category}}</h1>
+
+                <div *ngFor="let menu of item.menus">
+                    <h1 class="title sub">{{menu.name}}</h1>
+                    <h2 *ngFor="let menuItem of menu.itens">{{menuItem.name}} ({{menuItem.count}})</h2>
+                </div>
+            </div>
+        </div>
+        <slider></slider>
+    </div>
+</div>
