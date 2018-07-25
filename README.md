@@ -1,3 +1,13 @@
+#PASSOS PARA EXECUÇÃO
+
+*pre-requisito: ter nodejs instalado
+
+Após clonar o projeto, acessar o diretorio "front-end-test" e rodar o comando "npm install".
+
+Em seguida, rodar o comando "npm start" e pelo navegador acessar a url "http://localhost:4200/";
+
+
+
 # ViaVarejoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
