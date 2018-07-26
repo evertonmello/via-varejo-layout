@@ -8,6 +8,14 @@ Em seguida, rodar o comando "npm start" e pelo navegador acessar a url "http://l
 
 
 
+#considerações
+
+Com base nos dados dos dois arrays do json, não ficou claro com qual deles deveria preencher qual item da tela, por terem dados iguais. Na prática, isso seria uma dúvida pontual a ser tirada.
+
+Para situação, optei por usar o jquery para o slider, mas o ideal seria criar um  slider personalizado atraves de um modulo especifico para o angular como o ngx.
+
+
+
 # ViaVarejoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
