@@ -12,7 +12,7 @@
             <div *ngFor="let item of data" class="category">
                 <h1 class="title">{{item.category}}</h1>
 
-                <div *ngFor="let menu of item.menus">
+                <div *ngFor="let menu of item.menus" class="ctgItem">
                     <h1 class="title sub">{{menu.name}}</h1>
                     <h2 *ngFor="let menuItem of menu.itens">{{menuItem.name}} ({{menuItem.count}})</h2>
                 </div>
